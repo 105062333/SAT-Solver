@@ -15,3 +15,13 @@ The Preamble. The preamble contains information about the instance. This informa
 The Clauses. The clauses appear immediately after the problem line. The variables are assumed to be numbered from 1 up to n. It is not necessary that every variable appear in an instance. Each clause will be represented by a sequence of numbers, each separated by either a space, a tab, or a newline character. The non–negated version of a variable vi is represented by i; the negated version is represented by -i.
 
 Each clauses is terminated by the value 0. Unlike many formats that represent the end of a clause by a new–line character, this format allows clauses to be on multiple lines.
+
+Please read input from standard input.
+
+The input meets the following conditions:
+
+0<n<30000
+0<m<60000
+
+### Output
+Output sat if input is satisfiable, otherwise output unsat.
